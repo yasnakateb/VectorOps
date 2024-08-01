@@ -22,7 +22,7 @@ The custom IP, named FU, includes 4 Arithmetic Logic Units (ALUs) capable of per
 The custom IP was designed and implemented for a Zynq-based FPGA platform using Vivado.
 
 ## Vitis
-The `vector_ops` function was developed in C to perform the mathematical operations. The environment was configured to compile and execute this function.
+The `vector_ops` function was developed in C to perform the mathematical operations. The Vitis environment was configured to compile and execute this function.
 
 ## Integration Steps
 
