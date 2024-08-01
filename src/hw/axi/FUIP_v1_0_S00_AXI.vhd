@@ -392,7 +392,7 @@ begin
 	  end if;
 	end process;
 
-    A_1 <= slv_reg0 (C_S_AXI_DATA_WIDTH-1 downto 0);
+        A_1 <= slv_reg0 (C_S_AXI_DATA_WIDTH-1 downto 0);
 	B_1 <= slv_reg1 (C_S_AXI_DATA_WIDTH-1 downto 0);
 	A_2 <= slv_reg2 (C_S_AXI_DATA_WIDTH-1 downto 0);
 	B_2 <= slv_reg3 (C_S_AXI_DATA_WIDTH-1 downto 0);
