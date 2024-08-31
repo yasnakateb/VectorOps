@@ -12,10 +12,6 @@ The software component comprises the `vector_ops` function written in C, which p
 
 The custom IP, named FU, includes 4 Arithmetic Logic Units (ALUs) capable of performing addition, multiplication, subtraction, and logical OR operations. These ALUs operate simultaneously and receive a shared OP signal to execute specific operations on matrices A and B. Additionally, AXI VHDL codes are generated to connect FU to the Zynq processor, enabling communication via registers. This setup facilitates efficient data transfer between the software and FU.
 
-
-
-## Architecture of Custom IP (FU)
-![](assets/fu.png)
 # Tools and Workflow
 
 ## Vivado
